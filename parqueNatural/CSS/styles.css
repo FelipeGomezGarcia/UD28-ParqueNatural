@@ -1,6 +1,15 @@
+html{
+    background-color: rgb(204, 204, 204);
+}
 body{
-    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     width: 900px;
+    border: 1px rgb(255, 255, 255) solid;
+    background-color: white;
+    text-align: justify;
 }
 h1{
     text-align: center;
@@ -19,22 +28,34 @@ ul{
     list-style-type: none;
     float: left;
     width: 100px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
 }
 li{
     border: 1px black solid;
-    background-color: rgb(182, 228, 114);
+    background-color: rgb(255, 255, 255);
     margin-bottom: 5px;
-    font-size: 90%;
     text-align: center;
     line-height: 30px;
-    cursor: pointer;
+    background-image: url(../imagenes/menu_normal.png);
+}
+li:hover{
+    border-color: #9F9F9F;
+    background-color: #cfbaa2;
+}
+li:hover a {
+    color: black;
+}
+li.activo, li.activo:hover{
+    background-color: white;
+    background-image: url(../imagenes/menu_activa.png);
+}
+li.activo a, li.activo:hover a{
+    color: black;
 }
 #contenido{
     border: 1px black solid;
     margin-left: 160px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 h2{
     margin: 20px;
@@ -47,4 +68,8 @@ h3{
 }
 p{
     margin: 20px;
+}
+#derechosImg{
+    text-align: center;
+    color: grey;
 }
