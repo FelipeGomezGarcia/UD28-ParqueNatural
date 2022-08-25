@@ -1,3 +1,7 @@
+body{
+    margin: auto;
+    width: 900px;
+}
 h1{
     text-align: center;
 }
@@ -7,18 +11,40 @@ h1{
 #nombre{
     color: goldenrod;
 }
-div{
-    border: 1px black solid;
-    margin-left: 10px;
+a{
+    text-decoration: none;
+    color: rgb(68, 65, 65);
 }
-p{
-    margin: 10px;
+ul{
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    border: 1px black solid;
+    background-color: rgb(182, 228, 114);
+    margin-bottom: 5px;
+    font-size: 90%;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+#contenido{
+    border: 1px black solid;
+    margin-left: 160px;
 }
 h2{
-    margin: 10px;
+    margin: 20px;
     color: rgb(140, 207, 39);
+    border-bottom: 1px black solid;
 }
 h3{
-    margin: 10px;
+    margin: 20px;
     color: goldenrod;
+}
+p{
+    margin: 20px;
 }
