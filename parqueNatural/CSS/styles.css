@@ -1,3 +1,7 @@
+body{
+    margin: auto;
+    width: 900px;
+}
 h1{
     text-align: center;
 }
@@ -7,18 +11,26 @@ h1{
 #nombre{
     color: goldenrod;
 }
-div{
-    border: 1px black solid;
-    margin-left: 10px;
+ul{
+    float: left;
+    width: 100px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
-p{
-    margin: 10px;
+#contenido{
+    border: 1px black solid;
+    margin-left: 160px;
 }
 h2{
-    margin: 10px;
+    margin: 20px;
     color: rgb(140, 207, 39);
+    border-bottom: 1px black solid;
 }
 h3{
-    margin: 10px;
+    margin: 20px;
     color: goldenrod;
+}
+p{
+    margin: 20px;
 }
